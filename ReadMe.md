@@ -1,7 +1,14 @@
 Rotary encoder handler for arduino. v1.1
-
 Copyright 2011 Ben Buxton. Licenced under the GNU GPL Version 3.
 Contact: bb@cactii.net
+
+Modified 5/04/2019 by Carlos Siles
+	* Added other Encoder type
+
+Modified 3/17/2021 by: Vladimir Gendel aka S60Team
+	* Added Faster Digital Write
+	* Combined two types of Encoders
+	* Moved all text from Header to ReadMe.txt
 
 A typical mechanical rotary encoder emits a two bit gray code
 on 3 output pins. Every step in the output (often accompanied
