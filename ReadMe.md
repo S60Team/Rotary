@@ -10,7 +10,7 @@ Contact: bb@cactii.net
 * Added Faster Digital Write
 * Combined two types of Encoders
 * Moved all text from Header to ReadMe file
-* Don't forget to change (uncomment) values in the __Rotary.h__ file
+* Don't forget to change (uncomment) values in the __Rotary.h__ file to your taste!
 
 A typical mechanical rotary encoder emits a two bit gray code
 on 3 output pins. Every step in the output (often accompanied
