@@ -1,17 +1,12 @@
-// Uncomment for additional settings:
-// Enable DigitalWriteFast:
-#define DWF
-
-// If you want to Enable internal pullup resistors (useful for KY-040 Encoder):
-//#define ENABLE_PULLUPS
-
-// Try this if your Encoder does not work:
-// Change type of Encoding table:
-//#define ENCODER2
-
-// Enable this to emit codes twice per step:
-//#define HALF_STEP
-
+/*
+Now you can define setting in the Rotary2.h file:
+This is ONLY shows settings, not sets them!
+#define DWF // Enable Faster Digital Write.
+#define ENABLE_PULLUPS // Enable internal pull-up resistor.
+#define ENCODER2 // Enable other type of encoder.
+#define HALF_STEP // Enable Half-step encoder type.
+*/
+//
 #include <Rotary2.h> 
 Rotary2 enc = Rotary2(0, 1);
 volatile int16_t counter = 0;
